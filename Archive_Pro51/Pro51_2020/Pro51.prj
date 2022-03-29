@@ -1,0 +1,144 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3398299905" file="Q:\_MFILES_BACKUP_\mfiles\ROQ\Pro51\Pro51.prj" location="Q:\_MFILES_BACKUP_\mfiles\ROQ\Pro51" name="Pro51" preferred-package-location="Q:\_MFILES_BACKUP_\mfiles\ROQ\Pro51\Pro51\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Pro51</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.1</param.version>
+    <param.authnamewatermark>Michael Hutnak</param.authnamewatermark>
+    <param.email>mhutnak@roqinc.com</param.email>
+    <param.company>Right On Q, Inc.</param.company>
+    <param.summary>None</param.summary>
+    <param.description>None</param.description>
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\Right On Q, Inc.\Pro51\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Pro51\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Pro51\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Pro51\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Pro51</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments 
+ Description 
+ 	 None</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Pro51.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\_Pro51_DefaultPenvals.mat</file>
+      <file>${PROJECT_ROOT}\CleanRawFile.m</file>
+      <file>${PROJECT_ROOT}\dynamicDateTicks.m</file>
+      <file>${PROJECT_ROOT}\normalize.m</file>
+      <file>${PROJECT_ROOT}\p51_Acceleration.m</file>
+      <file>${PROJECT_ROOT}\p51_CFD.m</file>
+      <file>${PROJECT_ROOT}\p51_CreatePenfile_ROQ.m</file>
+      <file>${PROJECT_ROOT}\p51_Crop.m</file>
+      <file>${PROJECT_ROOT}\p51_Delete.m</file>
+      <file>${PROJECT_ROOT}\p51_ExportAscii_ROQ.m</file>
+      <file>${PROJECT_ROOT}\p51_ExportH2O.m</file>
+      <file>${PROJECT_ROOT}\p51_Filter.m</file>
+      <file>${PROJECT_ROOT}\p51_FilterSelect.m</file>
+      <file>${PROJECT_ROOT}\p51_FilterSelect2.m</file>
+      <file>${PROJECT_ROOT}\p51_Load_ROQ.m</file>
+      <file>${PROJECT_ROOT}\p51_LoadNonUnix.m</file>
+      <file>${PROJECT_ROOT}\p51_LoadUnix.m</file>
+      <file>${PROJECT_ROOT}\p51_Plot_ROQ.m</file>
+      <file>${PROJECT_ROOT}\p51_PlotCasts.m</file>
+      <file>${PROJECT_ROOT}\p51_PlotSelect.m</file>
+      <file>${PROJECT_ROOT}\p51_Reset.m</file>
+      <file>${PROJECT_ROOT}\p51_ScanUnix.m</file>
+      <file>${PROJECT_ROOT}\p51_ScreenGrab.m</file>
+      <file>${PROJECT_ROOT}\p51_Select_ROQ.m</file>
+      <file>${PROJECT_ROOT}\p51_selectdata.m</file>
+      <file>${PROJECT_ROOT}\p51_Validate.m</file>
+      <file>${PROJECT_ROOT}\p51_WritePenFile_ROQ.m</file>
+      <file>${PROJECT_ROOT}\Pro51.m</file>
+      <file>${PROJECT_ROOT}\rbmmed.m</file>
+      <file>${PROJECT_ROOT}\rbmsmh.m</file>
+      <file>${PROJECT_ROOT}\selectdata.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Pro51\for_testing" name="readme.txt" optional="true">Q:\_MFILES_BACKUP_\mfiles\ROQ\Pro51\Pro51\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Pro51\for_testing" name="splash.png" optional="false">Q:\_MFILES_BACKUP_\mfiles\ROQ\Pro51\Pro51\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Pro51\for_testing" name="Pro51.exe" optional="false">Q:\_MFILES_BACKUP_\mfiles\ROQ\Pro51\Pro51\for_testing\Pro51.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a_RG</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
